@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; padding: 20px; background-color:gray;}
+	ul { list-style: none; padding: 5px; }
+	li { margin-bottom: 5px; color:brown}
+	.breadcrumbs a { text-decoration: none; color: blue; margin-right: 5px; }
+	.breadcrumbs a::after { content: ">"; margin-left: 5px; }
+	.breadcrumbs a:last-child::after { content: ""; }
+	input[type="text"] { margin-bottom: 15px; width: 300px; padding: 5px; }
+	button { margin-left: 5px; background-color:black;color:white;font-style:italic}
+	input{ background-color:gray;color:white;font-family:Arial;font-style:italic;border:2px solid black}
